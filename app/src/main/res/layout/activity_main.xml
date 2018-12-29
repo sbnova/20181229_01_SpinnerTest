@@ -30,4 +30,14 @@
         android:spinnerMode="dialog"
         android:entries="@array/final_school"></Spinner>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소속 회사"/>
+    <Spinner
+        android:id="@+id/companySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
 </LinearLayout>
