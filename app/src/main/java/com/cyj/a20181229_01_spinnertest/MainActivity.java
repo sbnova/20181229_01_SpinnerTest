@@ -48,6 +48,9 @@ public class MainActivity extends BaseActivity {
         restaurants.add(new Restaurant("미스터피자", "관악구", "14:00 ~ 24:00", "http://postfiles12.naver.net/20160530_171/ppanppane_14646177044221JRNd_PNG/%B9%CC%BD%BA%C5%CD%C7%C7%C0%DA_%B7%CE%B0%ED_%281%29.png?type=w966"));
         restaurants.add(new Restaurant("피자헛", "강동구", "12:00 ~ 23:00", "https://mblogthumb-phinf.pstatic.net/20141124_182/howtomarry_1416806028308979cg_PNG/Pizza_Hut_logo.svg.png?type=w2"));
         restaurants.add(new Restaurant("파파존스", "성북구", "10:00 ~ 21:00", "http://postfiles2.naver.net/20160530_65/ppanppane_1464617766007O9b5u_PNG/%C6%C4%C6%C4%C1%B8%BD%BA_%C7%C7%C0%DA_%B7%CE%B0%ED_%284%29.png?type=w966"));
+
+//        배열의 변경 내용 반영 코드
+        mAdapter.notifyDataSetChanged();
     }
 
 
