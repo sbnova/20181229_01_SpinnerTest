@@ -3,6 +3,7 @@ package com.cyj.a20181229_01_spinnertest;
 import android.os.Bundle;
 import android.widget.Spinner;
 
+import com.cyj.a20181229_01_spinnertest.adapters.CompanyAdapter;
 import com.cyj.a20181229_01_spinnertest.datas.Restaurant;
 
 import java.util.ArrayList;
@@ -10,6 +11,7 @@ import java.util.List;
 
 public class MainActivity extends BaseActivity {
 
+    CompanyAdapter mAdapter;
     List<Restaurant> restaurants = new ArrayList<Restaurant>();
     private android.widget.Spinner companySpinner;
 
@@ -31,7 +33,12 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void setValues() {
+
+        mAdapter = new CompanyAdapter(mContext, restaurants);
+        companySpinner.setAdapter(mAdapter);
+
         fillRestaurants();
+
     }
 
     private void fillRestaurants() {

@@ -28,7 +28,7 @@ public class CompanyAdapter extends ArrayAdapter<Restaurant> {
     }
 
     @Override
-    public View getView(int position, View convertView,  ViewGroup parent) {
+    public View getDropDownView(int position, View convertView,  ViewGroup parent) {
         View row = convertView;
         if(row == null){
             row = inf.inflate(R.layout.company_list_item, null);
