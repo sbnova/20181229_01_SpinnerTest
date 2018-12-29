@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="jobkind">
+    <string-array name="job_kind">
         <item>학생</item>
         <item>회사원</item>
         <item>공무원</item>
         <item>자영업자</item>
         <item>무직</item>
+    </string-array>
+
+    <string-array name="final_school">
+        <item>중졸</item>
+        <item>고졸</item>
+        <item>대졸</item>
+        <item>대학원졸</item>
+        <item>그 외</item>
     </string-array>
 
 </resources>
