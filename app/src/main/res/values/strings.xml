@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">20181229_01_SpinnerTest</string>
+    <string name="app_name">스피너테스트</string>
+    <string name="job">직업</string>
 </resources>
